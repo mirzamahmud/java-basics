@@ -14,5 +14,15 @@ public class JavaBasics {
         // ---------- Data Types ---------
         DataTypes.exampleOfPrimitiveDataType(); // primivite data type
         DataTypes.exampleOfNonPrimitiveDataType(); // non-primitive data type
+        
+        // ---------- Operators ----------
+        Operators.exampleOfUnaryOperator(); // unary operator
+        Operators.exampleOfArithmeticOperator(); // arithmetic operator
+        Operators.exampleOfShiftOperator(); // shift operator
+        Operators.exampleOfRelationalOperator(); // relational operator
+        Operators.exampleOfBitwiseOperator(); // bitwise operator
+        Operators.exampleOfLogicalOperator(); // logical operator
+        Operators.exampleOfTernaryOperator(); // ternary operator
+        Operators.exampleOfAssignmentOperator(); // assignment operator
     }
 }
