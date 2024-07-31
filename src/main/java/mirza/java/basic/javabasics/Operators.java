@@ -59,12 +59,23 @@ public class Operators {
     
     // this method is used for bitwise operator
     public static void exampleOfBitwiseOperator(){
+        int a = 10;
+        int b = 20;
+        int c = 30;
         
+        System.out.println("Bitwise AND: " + (a > b & a > c)); // bitwise and operator (&)
+        System.out.println("Bitwise Inclusive OR: " + (a > b | a < c)); // bitwise inclusive or operator (|)
+        System.out.println("Bitwise Exclusive OR: " + (a < b ^ a < c)); // bitwise and operator (^)
     }
     
     // this method is used for logical operator
     public static void exampleOfLogicalOperator(){
+        int a = 10;
+        int b = 20;
+        int c = 30;
         
+        System.out.println("Logical AND: " + (a > b && a > c)); // bitwise and operator (&&)
+        System.out.println("Logical OR: " + (a > b || a < c)); // bitwise inclusive or operator (||)
     }
     
     // this method is used for ternary operator
