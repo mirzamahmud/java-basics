@@ -23,19 +23,21 @@ public class Operators {
     public static void exampleOfArithmeticOperator(){
         int num1 = 20;
         int num2 = 10;
-        double num3 = 30.00d;
-        double num4 = 14.00d;
         
         System.out.println("Addition: " + (num1 + num2)); // addition
         System.out.println("Subtraction: " + (num1 - num2)); // subtraction
         System.out.println("Multiplication: " + (num1 * num2)); // multiplication
         System.out.println("Division: " + (num1 / num2)); // division
         System.out.println("Modulus: " + (num2 % num1)); // modulus
+        System.out.println("Power: " + (2^2)); // power
     }
     
     // this method is used for shift operator
     public static void exampleOfShiftOperator(){
+        int num1 = 20;
         
+        System.out.println("Left Shift: " + (num1 << 3)); // num1*2^2 
+        System.out.println("Right Shift: " + (num1 >> 2)); // num1/2^2
     }
     
     // this method is used for relational operator
