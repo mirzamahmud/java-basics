@@ -83,12 +83,27 @@ public class Operators {
         int firstNumber = 20;
         int secondNumber = 30;
         
-        int minNumber = firstNumber < secondNumber ? firstNumber : secondNumber;
+        int minNumber = firstNumber < secondNumber ? firstNumber : secondNumber; // ternary operator
         System.out.println("Ternary Operator (Min Number): " + minNumber);
     }
     
     // this method is used for assignment operator
     public static void exampleOfAssignmentOperator(){
+        int num = 5;
         
+        num += 5; // 10
+        System.out.println("Assignment Operator (Addition): " + num);
+        
+        num -= 2; // 8
+        System.out.println("Assignment Operator (Subtraction): " + num);
+        
+        num *= 2; // 16
+        System.out.println("Assignment Operator (Multiplication): " + num);
+        
+        num /= 4; // 4
+        System.out.println("Assignment Operator (Division): " + num);
+        
+        num %= 2; // 0
+        System.out.println("Assignment Operator (Modulus): " + num);
     }
 }
