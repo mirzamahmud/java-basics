@@ -33,5 +33,9 @@ public class JavaBasics {
         LoopStatements.forLoopStatement(); // for loop statement
         LoopStatements.whileLoopStatement(); // while loop statement
         LoopStatements.doWhileLoopStatement(); // do-while loop statement
+
+        // -------- Jump Statements --------
+        JumpStatements.breakStatement(); // break statement
+        JumpStatements.continueStatement(); // continue statement
     }
 }
