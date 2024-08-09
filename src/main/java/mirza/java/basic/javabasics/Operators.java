@@ -80,7 +80,11 @@ public class Operators {
     
     // this method is used for ternary operator
     public static void exampleOfTernaryOperator(){
+        int firstNumber = 20;
+        int secondNumber = 30;
         
+        int minNumber = firstNumber < secondNumber ? firstNumber : secondNumber;
+        System.out.println("Ternary Operator (Min Number): " + minNumber);
     }
     
     // this method is used for assignment operator
