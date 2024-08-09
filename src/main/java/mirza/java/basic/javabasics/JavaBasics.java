@@ -28,5 +28,10 @@ public class JavaBasics {
         // --------- Decision Making Statements ---------
         DecisionMakingStatements.decisionMakingIfElseStatement(); // if-elseif-else statement
         DecisionMakingStatements.decisionMakingSwitchStatement(); // switch statement
+
+        // -------- Loop Statements --------
+        LoopStatements.forLoopStatement(); // for loop statement
+        LoopStatements.whileLoopStatement(); // while loop statement
+        LoopStatements.doWhileLoopStatement(); // do-while loop statement
     }
 }
