@@ -25,8 +25,8 @@ public class JavaBasics {
         Operators.exampleOfTernaryOperator(); // ternary operator
         Operators.exampleOfAssignmentOperator(); // assignment operator
         
-        // --------- Control Statements ---------
-        ControlStatements.decisionMakingIfElseStatement(); // if-elseif-else statement
-        ControlStatements.decisionMakingSwitchStatement(); // switch statement
+        // --------- Decision Making Statements ---------
+        DecisionMakingStatements.decisionMakingIfElseStatement(); // if-elseif-else statement
+        DecisionMakingStatements.decisionMakingSwitchStatement(); // switch statement
     }
 }

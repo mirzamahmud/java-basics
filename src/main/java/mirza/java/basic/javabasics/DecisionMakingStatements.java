@@ -2,7 +2,7 @@ package mirza.java.basic.javabasics;
 
 import java.util.Scanner;
 
-public class ControlStatements {
+public class DecisionMakingStatements {
 
     // this method is used to if-then-else statement
     public static void decisionMakingIfElseStatement(){
