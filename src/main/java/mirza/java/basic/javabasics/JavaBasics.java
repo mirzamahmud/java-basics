@@ -1,7 +1,7 @@
 package mirza.java.basic.javabasics;
 
 public class JavaBasics {
-    public static void main(String args[]){
+    public static void main(String[] args){
         // --------- Basic ---------
         System.out.println("Hello World!");
         
@@ -12,7 +12,7 @@ public class JavaBasics {
         System.out.println("My Balance: " + myBalance + " BDT");
         
         // ---------- Data Types ---------
-        DataTypes.exampleOfPrimitiveDataType(); // primivite data type
+        DataTypes.exampleOfPrimitiveDataType(); // primitive data type
         DataTypes.exampleOfNonPrimitiveDataType(); // non-primitive data type
         
         // ---------- Operators ----------
@@ -24,5 +24,9 @@ public class JavaBasics {
         Operators.exampleOfLogicalOperator(); // logical operator
         Operators.exampleOfTernaryOperator(); // ternary operator
         Operators.exampleOfAssignmentOperator(); // assignment operator
+        
+        // --------- Control Statements ---------
+        ControlStatements.decisionMakingIfElseStatement(); // if-elseif-else statement
+        ControlStatements.decisionMakingSwitchStatement(); // switch statement
     }
 }
