@@ -37,5 +37,8 @@ public class JavaBasics {
         // -------- Jump Statements --------
         JumpStatements.breakStatement(); // break statement
         JumpStatements.continueStatement(); // continue statement
+
+        // -------- Taking Input from User
+        TakingInputFromUser.takingUserInput();
     }
 }
